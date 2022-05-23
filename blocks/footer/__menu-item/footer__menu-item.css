@@ -1,0 +1,19 @@
+.footer__menu-item {
+    margin-right: 18px;
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.12;
+}
+
+.footer__menu-item:nth-of-type(5) {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .footer__menu-item {
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 1;
+    }
+}

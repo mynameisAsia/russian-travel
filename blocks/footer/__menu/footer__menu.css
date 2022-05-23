@@ -1,0 +1,13 @@
+.footer__menu {
+    padding: 0;
+    max-width: 465px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+    .footer__menu {
+        display: block;
+        max-width: 186px;
+    }
+}
