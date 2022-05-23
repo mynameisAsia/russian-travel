@@ -1,8 +1,8 @@
-.place__link {
+.places__link {
     margin: 0;
     color: white;
 }
 
-.place__link:hover {
+.places__link:hover {
     cursor: pointer;
 }

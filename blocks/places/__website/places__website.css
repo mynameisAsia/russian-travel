@@ -1,4 +1,4 @@
-.place__website {
+.places__website {
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -6,14 +6,14 @@
 
 
 @media screen and (max-width: 767px) {
-    .place__website {
+    .places__website {
         padding-left: 24px;
         max-width: 352px;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .place__website {
+    .places__website {
         padding: 16px;
     }
 }

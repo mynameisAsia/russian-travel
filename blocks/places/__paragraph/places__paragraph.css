@@ -1,4 +1,4 @@
-.place__paragraph {
+.places__paragraph {
     grid-area: text;
     max-width: 484px;
     margin: 0 0 26px;
@@ -8,25 +8,25 @@
     line-height: 1.6;
 }
 
-.place__paragraph:nth-of-type(2) {
+.places__paragraph:nth-of-type(2) {
     margin-bottom: 0;
 }
 
 @media screen and (max-width: 1023px) {
-    .place__paragraph {
+    .places__paragraph {
         max-width: 456px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .place__paragraph {
+    .places__paragraph {
         padding-left: 24px;
         max-width: 352px;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .place__paragraph {
+    .places__paragraph {
         padding-left: 16px;
         max-width: 288px;
     }
