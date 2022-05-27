@@ -8,13 +8,14 @@
     color: white;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1279.98px) {
     .lead__title {
-        font-size: 86px;
+        margin-top: 48px;
     }
 }
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 767.98px) {
     .lead__title {
         font-size: 70px;
         line-height: 1.2;

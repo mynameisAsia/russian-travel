@@ -5,13 +5,13 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1279.98px) {
     .lead__image {
         margin: 56px auto 0;
     }
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 767.98px) {
     .lead__image {
         margin: 40px auto 0;
     }

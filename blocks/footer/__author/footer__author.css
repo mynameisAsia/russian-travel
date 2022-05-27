@@ -1,5 +1,16 @@
 .footer__author {
+    max-width: 186px;
+    margin: 0;
+    padding: 0;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.1;
+    align-self: center;
+    text-align: right;
+}
+
+@media screen and (max-width: 767.98px) {
+    .footer__author {
+        display: inline-block;
+    }
 }

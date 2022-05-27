@@ -5,3 +5,17 @@
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (max-width: 1279.98px) {
+    .lead {
+        max-width: 928px;
+        padding: 0 48px;
+    }
+}
+
+@media screen and (max-width: 1023.98px) {
+    .lead {
+        max-width: 768px;
+        padding: 0;
+    }
+}

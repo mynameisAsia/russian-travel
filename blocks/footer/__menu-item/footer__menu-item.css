@@ -10,7 +10,7 @@
     margin-right: 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767.98px) {
     .footer__menu-item {
         margin-bottom: 32px;
         font-size: 24px;

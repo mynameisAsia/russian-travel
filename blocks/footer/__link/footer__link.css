@@ -1,4 +1,10 @@
 .footer__link {
     text-decoration: none;
     color: white;
+    opacity: 1;
+    transition: opacity 0.5s linear;
+}
+
+.footer__link:hover {
+    opacity: 0.5;
 }
