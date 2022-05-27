@@ -1,7 +1,6 @@
 .footer {
     max-width: 1184px;
     width: 100%;
-    min-height: 66px;
     margin: 85px auto 0;
 }
 
@@ -22,7 +21,5 @@
     .footer{
         margin-top: 64px;
         padding: 0 16px;
-        min-width: 320px;
-        min-height: 310px;
     }
 }
