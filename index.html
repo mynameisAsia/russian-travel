@@ -27,11 +27,11 @@
                 <h2 class="intro__title">Чего мы там не видели?</h2>
                 <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
                 <ul class="intro__list">
-                    <li class="intro__list-item"><span class="intro__item-bold">Часовых поясов</span> 11</li>
-                    <li class="intro__list-item"><span class="intro__item-bold">Объектов природного наследия ЮНЕСКО</span> 12</li>
-                    <li class="intro__list-item"><span class="intro__item-bold">Объектов культурного наследия ЮНЕСКО</span> 16</li>
-                    <li class="intro__list-item"><span class="intro__item-bold">Природных заповедников</span> 105</li>
-                    <li class="intro__list-item"><span class="intro__item-bold">Аэропортов</span> 241</li>
+                    <li class="intro__list-item"><span class="intro__span-accent">Часовых поясов</span> 11</li>
+                    <li class="intro__list-item"><span class="intro__span-accent">Объектов природного наследия ЮНЕСКО</span> 12</li>
+                    <li class="intro__list-item"><span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+                    <li class="intro__list-item"><span class="intro__span-accent">Природных заповедников</span> 105</li>
+                    <li class="intro__list-item"><span class="intro__span-accent">Аэропортов</span> 241</li>
                 </ul>
             </section>
             <section class="photo-grid">
@@ -49,14 +49,13 @@
                 <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Ергаки">
             </section>
             <section class="places">
-                <article class="places__item">
-                    <h2 class="places__title">Куршская коса</h2>
+                <article class="places__item"> 
+                    <h2 class="places__title">Куршская коса</h2> <!-- При размере экрана 768рх надпись "Куршская коса" встает в одну строку, а не в две, как в макете. Если уменьшить ширину заголовка принудительно, то надпись "Зимний Байкал" тоже встает в две строки, а на макете в одну. Возможно, именно поэтому не совпадает с макетом в PixelPerfect -->
                     <div class="places__website">
                         <h3 class="places__url-heading">URL</h3>
                         <a href="http://park-kosa.ru" class="places__link" target="_blank">park-kosa.ru</a>
                     </div>
                     <img src="./images/place-kosa.jpg" alt="Куршская коса" class="places__image">
-                    <!-- К сожалению, когда убираю обертку places__description для текста в этом блоке, текст накладывается друг на друга, поэтому единственным решением, мне кажется, здесь положить эти параграфы в див -->
                     <div class="places__description">
                         <p class="places__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
                         <p class="places__paragraph">На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
@@ -120,28 +119,26 @@
             </section>
         </main>
         <footer class="footer">
-            <div class="footer__columns">
-                <nav class="footer__menu">
-                    <ul class="footer__menu">
-                        <li class="footer__menu-item">
-                            <a href="https://yandex.ru/maps" class="footer__link">Карты</a>
-                        </li>
-                        <li class="footer__menu-item">
-                            <a href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
-                        </li>
-                        <li class="footer__menu-item">
-                            <a href="https://rasp.yandex.ru" class="footer__link">Расписание</a>
-                        </li>
-                        <li class="footer__menu-item">
-                            <a href="https://calendar.yandex.ru" class="footer__link">Календарь</a>
-                        </li>
-                        <li class="footer__menu-item">
-                            <a href="https://travel.yandex.ru" class="footer__link">Путешествия</a>
-                        </li>
-                    </ul>
-                </nav>
-                <p class="footer__author">&copy;2022. Азия Маматова</p>
-            </div>
+            <nav class="footer__navigation">
+                <ul class="footer__menu">
+                    <li class="footer__menu-item">
+                        <a href="https://yandex.ru/maps" class="footer__link">Карты</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="https://rasp.yandex.ru" class="footer__link">Расписание</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="https://calendar.yandex.ru" class="footer__link">Календарь</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="https://travel.yandex.ru" class="footer__link">Путешествия</a>
+                    </li>
+                </ul>
+            </nav>
+            <p class="footer__author">&copy;2022. Азия Маматова</p>
         </footer>
     </div>    
 </body>
